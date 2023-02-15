@@ -10,8 +10,8 @@ public class ParrotTest {
      */
     @Test
     public void parrotTestHello(){
-        String input = "hello";
-        String expected = "hello";
+        String input = "polly";
+        String expected = "polly";
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
     }
